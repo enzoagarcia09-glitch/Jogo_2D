@@ -7,3 +7,6 @@ as plataformas de GitHub Desktop e como arrumar a unity para versionar tudo para
 
 27/08 Hoje começamos o gamedesign , e vamos começar o projeto do nosso jogo , primeiramente preenchendo um arquivo no world com todas as 
 informações do jogo e gamedesign , ou seja , projetando o tema , jogabilidade , modelos e refêrencias. Descrevendo meu projeto todo.
+
+17/09 Hoje fizemos o ínicio da programação do meu jogo , pelo começo adicionamos o player e uma plataforma , após codamos os scripts de 
+movimento do player para que ele andasse e colidisse , além disso fizemos o script adicionando a força e impulso que ele consiga pular.
