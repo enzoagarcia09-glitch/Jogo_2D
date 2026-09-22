@@ -10,3 +10,6 @@ informações do jogo e gamedesign , ou seja , projetando o tema , jogabilidade 
 
 17/09 Hoje fizemos o ínicio da programação do meu jogo , pelo começo adicionamos o player e uma plataforma , após codamos os scripts de 
 movimento do player para que ele andasse e colidisse , além disso fizemos o script adicionando a força e impulso que ele consiga pular.
+
+22/09 Hoje foi feito o código para que o jogador consiga pular normalmente e o chão reconhecer para que ele não fique pulando infinitamente,
+o chão(Ground) reconhece o pulo do jogador e verifica apenas 1 vez para que pule corretamente , e isso foi adicionado ao jogo.
