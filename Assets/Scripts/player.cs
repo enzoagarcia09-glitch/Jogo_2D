@@ -5,6 +5,8 @@ public class player : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private bool isGrounded = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -16,10 +18,28 @@ public class player : MonoBehaviour
 
         rb.linearVelocity = new Vector2(moveHorizontal * speed, rb.linearVelocity.y); //Vai aplicar a velocidade horizontal
         
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded )
         {
 
-            rb.AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse); //Vai adiconar o salto
+            rb.AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse); //Vai adicionar o salto
         }
     }
+
+    void OnCollisionEnter2D( Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true; //Vai reconhecer quando o jogador cair no chão
+        }
+    }
+
+     void OnCollisionExit2D(Collision2D collision)
+    {
+
+        if(collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded= false; //Vai reconhecer quando o jogador cair no chão
+        }   
+    }
+
 }
