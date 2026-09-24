@@ -3,13 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class obs : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -20,7 +18,7 @@ public class obs : MonoBehaviour
         // Só reinicia se quem colidiu for o Player
         if (other.CompareTag("Player"))
         {
-            // Recarrega a cena atual, voltando tudo ao início
+            // Recarrega a cena voltando pro começo 
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
