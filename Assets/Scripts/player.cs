@@ -29,7 +29,7 @@ public class player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded = true; //Vai reconhecer quando o jogador cair no chão
+            isGrounded = true; //Vai reconhecer quando o jogador estiver no chão
         }
     }
 
@@ -38,7 +38,7 @@ public class player : MonoBehaviour
 
         if(collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded= false; //Vai reconhecer quando o jogador cair no chão
+            isGrounded= false; //Vai reconhecer quando o jogador não estiver no chão
         }   
     }
 
