@@ -13,3 +13,6 @@ movimento do player para que ele andasse e colidisse , além disso fizemos o scr
 
 22/09 Hoje foi feito o código para que o jogador consiga pular normalmente e o chão reconhecer para que ele não fique pulando infinitamente,
 o chão(Ground) reconhece o pulo do jogador e verifica apenas 1 vez para que pule corretamente , e isso foi adicionado ao jogo.
+
+24/09 Hoje foi feito a criação do mapa para que o jogo fluisse melhor , além disso eu adicionei plataforma e obstaculo e fiz o código para que
+sempre que um jogador atingisse um obstaculo voltava para a cena inicial.
