@@ -16,3 +16,7 @@ o chão(Ground) reconhece o pulo do jogador e verifica apenas 1 vez para que pul
 
 24/09 Hoje foi feito a criação do mapa para que o jogo fluisse melhor , além disso eu adicionei plataforma e obstaculo e fiz o código para que
 sempre que um jogador atingisse um obstaculo voltava para a cena inicial.
+
+29/09 Hoje foi feito mais fases do mapa , tendo com ele maiores obstáculos e plataformas para o player jogar , também coloquei novamente a tag
+de Dano para quando o player colidir com um obstáculo ele volte a cena 0 , segundo o code , também criamos a pasta prefabs para guardarmos os 
+elementos utilizados e reutiliza-lós.
