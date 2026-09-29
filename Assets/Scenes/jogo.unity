@@ -1038,6 +1038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275280248}
   - component: {fileID: 275280249}
+  - component: {fileID: 275280250}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Dano
@@ -1115,6 +1116,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &275280250
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275280247}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.8828125}
+    newSize: {x: 1, y: 0.8828125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 0.8828125}
+  m_EdgeRadius: 0
 --- !u!1 &277124416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,7 +1909,7 @@ Transform:
   m_GameObject: {fileID: 410899115}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.193995, y: 0.33055305, z: 0}
+  m_LocalPosition: {x: -6.4678645, y: 0.27876616, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7221,7 +7268,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479151308083832553, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1751138
+      value: 1.1750947
       objectReference: {fileID: 0}
     - target: {fileID: 1479151308083832553, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7229,7 +7276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1479151308083832553, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.2023535
+      value: -6.8557305
       objectReference: {fileID: 0}
     - target: {fileID: 1479151308083832553, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7763,9 +7810,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1823569452}
   - component: {fileID: 1823569451}
-  - component: {fileID: 1823569453}
   m_Layer: 0
-  m_Name: background_geometry_dash_dark_0
+  m_Name: background
   m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7835,58 +7881,12 @@ Transform:
   m_GameObject: {fileID: 1823569450}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 116.8974, y: -63.915077, z: 0}
+  m_LocalPosition: {x: 144.56697, y: -70.66669, z: 0}
   m_LocalScale: {x: 33.77995, y: 35.372322, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1823569453
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823569450}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 19.2, y: 10.8}
-    newSize: {x: 19.2, y: 10.8}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 19.2, y: 10.8}
-  m_EdgeRadius: 0
 --- !u!4 &1837902862 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1479151308083832553, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
