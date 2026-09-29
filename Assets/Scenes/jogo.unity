@@ -765,11 +765,10 @@ GameObject:
   m_Component:
   - component: {fileID: 240839117}
   - component: {fileID: 240839119}
-  - component: {fileID: 240839120}
   - component: {fileID: 240839121}
   m_Layer: 0
   m_Name: Triangle (8)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -844,18 +843,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &240839120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240839116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &240839121
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -933,7 +920,7 @@ Transform:
   m_GameObject: {fileID: 277124416}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 72.04, y: -9.1022, z: 0}
+  m_LocalPosition: {x: 70.54, y: -9.16, z: 0}
   m_LocalScale: {x: 1.850371, y: 0.7086, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1102,7 +1089,7 @@ Transform:
   m_GameObject: {fileID: 307711226}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 73.49, y: -8.6485, z: 0}
+  m_LocalPosition: {x: 72.49, y: -8.76, z: 0}
   m_LocalScale: {x: 2.613464, y: 0.7086, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1353,11 +1340,10 @@ GameObject:
   m_Component:
   - component: {fileID: 335730775}
   - component: {fileID: 335730778}
-  - component: {fileID: 335730776}
   - component: {fileID: 335730779}
   m_Layer: 0
   m_Name: Triangle (16)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1377,18 +1363,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &335730776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335730774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &335730778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1434,7 +1408,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6470588, g: 0.1647059, b: 0.1647059, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1504,11 +1478,10 @@ GameObject:
   m_Component:
   - component: {fileID: 387603967}
   - component: {fileID: 387603970}
-  - component: {fileID: 387603968}
   - component: {fileID: 387603971}
   m_Layer: 0
   m_Name: Triangle (20)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1528,18 +1501,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &387603968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387603966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &387603970
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1874,11 +1835,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1613291198053861663, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     - target: {fileID: 1830930262328314251, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3189765509023890139, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2187,11 +2153,10 @@ GameObject:
   m_Component:
   - component: {fileID: 492023994}
   - component: {fileID: 492023996}
-  - component: {fileID: 492023997}
   - component: {fileID: 492023998}
   m_Layer: 0
   m_Name: Triangle (5)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2266,18 +2231,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &492023997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492023993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &492023998
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2343,11 +2296,10 @@ GameObject:
   m_Component:
   - component: {fileID: 685450691}
   - component: {fileID: 685450693}
-  - component: {fileID: 685450694}
   - component: {fileID: 685450695}
   m_Layer: 0
   m_Name: Triangle (4)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2422,18 +2374,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &685450694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685450690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &685450695
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2511,7 +2451,7 @@ Transform:
   m_GameObject: {fileID: 691062444}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.11, y: -9.67, z: 0}
+  m_LocalPosition: {x: 63.22, y: -9.75, z: 0}
   m_LocalScale: {x: 6.819291, y: 0.7086, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2901,11 +2841,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1003063888}
   - component: {fileID: 1003063891}
-  - component: {fileID: 1003063889}
   - component: {fileID: 1003063892}
   m_Layer: 0
   m_Name: Triangle (14)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2925,18 +2864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1003063889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003063887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1003063891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2982,7 +2909,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6470588, g: 0.1647059, b: 0.1647059, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3052,11 +2979,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1003138110}
   - component: {fileID: 1003138113}
-  - component: {fileID: 1003138111}
   - component: {fileID: 1003138114}
   m_Layer: 0
   m_Name: Triangle (21)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3076,18 +3002,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1003138111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003138109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1003138113
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3203,11 +3117,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1042996321}
   - component: {fileID: 1042996324}
-  - component: {fileID: 1042996322}
   - component: {fileID: 1042996325}
   m_Layer: 0
   m_Name: Triangle (11)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3227,18 +3140,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -78.83}
---- !u!114 &1042996322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1042996320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1042996324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3354,11 +3255,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1064788645}
   - component: {fileID: 1064788648}
-  - component: {fileID: 1064788646}
   - component: {fileID: 1064788649}
   m_Layer: 0
   m_Name: Triangle (18)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3378,18 +3278,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1064788646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064788644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1064788648
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3505,11 +3393,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1068477789}
   - component: {fileID: 1068477792}
-  - component: {fileID: 1068477790}
   - component: {fileID: 1068477793}
   m_Layer: 0
   m_Name: Triangle (15)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3529,18 +3416,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1068477790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068477788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1068477792
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3586,7 +3461,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.6980392, g: 0.1333333, b: 0.1333333, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3656,11 +3531,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1128120797}
   - component: {fileID: 1128120799}
-  - component: {fileID: 1128120800}
   - component: {fileID: 1128120801}
   m_Layer: 0
   m_Name: Triangle (10)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3735,18 +3609,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1128120800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128120796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1128120801
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3807,11 +3669,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1143802417}
   - component: {fileID: 1143802420}
-  - component: {fileID: 1143802418}
   - component: {fileID: 1143802421}
   m_Layer: 0
   m_Name: Triangle (24)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3831,18 +3692,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1143802418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143802416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1143802420
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3958,11 +3807,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1160387500}
   - component: {fileID: 1160387502}
-  - component: {fileID: 1160387503}
   - component: {fileID: 1160387504}
   m_Layer: 0
   m_Name: Triangle (3)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4037,18 +3885,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1160387503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160387499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1160387504
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4126,7 +3962,7 @@ Transform:
   m_GameObject: {fileID: 1193416106}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 74.89, y: -8.2668, z: 0}
+  m_LocalPosition: {x: 74.43, y: -8.39, z: 0}
   m_LocalScale: {x: 3.238575, y: 0.7086, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4779,11 +4615,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1252515879}
   - component: {fileID: 1252515882}
-  - component: {fileID: 1252515880}
   - component: {fileID: 1252515883}
   m_Layer: 0
   m_Name: Triangle (23)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4803,18 +4638,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1252515880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1252515878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1252515882
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5017,11 +4840,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1312372582}
   - component: {fileID: 1312372584}
-  - component: {fileID: 1312372585}
   - component: {fileID: 1312372586}
   m_Layer: 0
   m_Name: Triangle (6)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5096,18 +4918,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1312372585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312372581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1312372586
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5436,11 +5246,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1370659380}
   - component: {fileID: 1370659383}
-  - component: {fileID: 1370659381}
   - component: {fileID: 1370659384}
   m_Layer: 0
   m_Name: Triangle (17)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5460,18 +5269,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1370659381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370659379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1370659383
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5897,11 +5694,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1613291198053861663, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     - target: {fileID: 1830930262328314251, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3189765509023890139, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5916,11 +5718,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1513874670}
   - component: {fileID: 1513874672}
-  - component: {fileID: 1513874673}
   - component: {fileID: 1513874674}
   m_Layer: 0
   m_Name: Triangle (9)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5995,18 +5796,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1513874673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513874669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1513874674
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6067,11 +5856,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1518823646}
   - component: {fileID: 1518823648}
-  - component: {fileID: 1518823649}
   - component: {fileID: 1518823650}
   m_Layer: 0
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6146,18 +5934,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1518823649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518823645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1518823650
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6357,11 +6133,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1593645446}
   - component: {fileID: 1593645447}
-  - component: {fileID: 1593645449}
   - component: {fileID: 1593645450}
   m_Layer: 0
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6436,18 +6211,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1593645449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7200239410940446084, guid: fa404eece157ef3488568a66f2bc66ce, type: 3}
-  m_PrefabInstance: {fileID: 5971776718969180861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593645445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1593645450
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6550,11 +6313,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1613291198053861663, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     - target: {fileID: 1830930262328314251, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3189765509023890139, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6569,11 +6337,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1657354732}
   - component: {fileID: 1657354735}
-  - component: {fileID: 1657354733}
   - component: {fileID: 1657354736}
   m_Layer: 0
   m_Name: Triangle (19)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6593,18 +6360,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1657354733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657354731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1657354735
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6720,11 +6475,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1663515133}
   - component: {fileID: 1663515135}
-  - component: {fileID: 1663515136}
   - component: {fileID: 1663515137}
   m_Layer: 0
   m_Name: Triangle (7)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6799,18 +6553,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1663515136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663515132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1663515137
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7139,11 +6881,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1816540339}
   - component: {fileID: 1816540342}
-  - component: {fileID: 1816540340}
   - component: {fileID: 1816540343}
   m_Layer: 0
   m_Name: Triangle (22)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7163,18 +6904,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1816540340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816540338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1816540342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7424,11 +7153,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1842072372}
   - component: {fileID: 1842072373}
-  - component: {fileID: 1842072375}
   - component: {fileID: 1842072376}
   m_Layer: 0
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7503,18 +7231,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1842072375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2494517993013292726, guid: 74662b8e02fcdc74d8c1ccdce64c2790, type: 3}
-  m_PrefabInstance: {fileID: 5910806300894526904}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842072371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1842072376
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7622,11 +7338,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1613291198053861663, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     - target: {fileID: 1830930262328314251, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3189765509023890139, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7780,11 +7501,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2091731941}
   - component: {fileID: 2091731944}
-  - component: {fileID: 2091731942}
   - component: {fileID: 2091731945}
   m_Layer: 0
   m_Name: Triangle (12)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7804,18 +7524,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2091731942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091731940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &2091731944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7861,7 +7569,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6470588, g: 0.1647059, b: 0.1647059, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8065,11 +7773,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2129652744}
   - component: {fileID: 2129652747}
-  - component: {fileID: 2129652745}
   - component: {fileID: 2129652748}
   m_Layer: 0
   m_Name: Triangle (13)
-  m_TagString: Untagged
+  m_TagString: Dano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8089,18 +7796,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 13055844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2129652745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129652743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23d9fe5d9754104fbb9123110150805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &2129652747
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8146,7 +7841,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.6980392, g: 0.1333333, b: 0.1333333, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8233,7 +7928,7 @@ Transform:
   m_GameObject: {fileID: 2141734857}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 70.45, y: -9.4, z: 0}
+  m_LocalPosition: {x: 68.08, y: -9.49, z: 0}
   m_LocalScale: {x: 1.254744, y: 0.7086, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8392,6 +8087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1613291198053861663, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
     - target: {fileID: 1830930262328314251, guid: 5fc1193e86bf5e543bbc09b58d721959, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -8453,7 +8152,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8939886978095166352, guid: 74662b8e02fcdc74d8c1ccdce64c2790, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8510,7 +8214,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2189177130268634969, guid: fa404eece157ef3488568a66f2bc66ce, type: 3}
+      propertyPath: m_TagString
+      value: Dano
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

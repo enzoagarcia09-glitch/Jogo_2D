@@ -32,6 +32,11 @@ public class player : MonoBehaviour
         {
             isGrounded = true; //Vai reconhecer quando o jogador estiver no chão
         }
+
+        if (collision.gameObject.CompareTag("Dano"))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
      void OnCollisionExit2D(Collision2D collision)
