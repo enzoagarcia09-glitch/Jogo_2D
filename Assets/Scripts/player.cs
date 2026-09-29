@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class player : MonoBehaviour
 {
     public float speed = 5f;
