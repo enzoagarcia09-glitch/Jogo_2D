@@ -9,7 +9,6 @@ public class player : MonoBehaviour
     public float dashSpeed = 15f;       // velocidade durante o dash
     public float dashDuration = 0.15f;  // duração do dash em segundos
     public KeyCode dashKey = KeyCode.LeftShift;
-
     private Rigidbody2D rb;
 
     private bool isGrounded = false;
