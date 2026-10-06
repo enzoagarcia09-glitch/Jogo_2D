@@ -20,3 +20,6 @@ sempre que um jogador atingisse um obstaculo voltava para a cena inicial.
 29/09 Hoje foi feito mais fases do mapa , tendo com ele maiores obstáculos e plataformas para o player jogar , também coloquei novamente a tag
 de Dano para quando o player colidir com um obstáculo ele volte a cena 0 , segundo o code , também criamos a pasta prefabs para guardarmos os 
 elementos utilizados e reutiliza-lós.
+
+06/10 Hoje eu concluí a primeira fase do meu jogo , terminando a primeira fase do mapa e codando a mecânica de dash ao player , para sempre
+que apertar a tecla (shift) o player da um dash no mapa.
