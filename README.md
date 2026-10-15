@@ -23,3 +23,6 @@ elementos utilizados e reutiliza-lós.
 
 06/10 Hoje eu concluí a primeira fase do meu jogo , terminando a primeira fase do mapa e codando a mecânica de dash ao player , para sempre
 que apertar a tecla (shift) o player da um dash no mapa.
+
+15/10 Hoje foi feito a tela de Menu Manager , para que sempre que o player morrer ele seja direcionado a tela de derrota e possa atráves do menu
+resetar o jogo e voltar , e também foi feito o código para tudo funcionar corretamente.
