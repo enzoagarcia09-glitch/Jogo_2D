@@ -19,6 +19,10 @@ public class player : MonoBehaviour
     private float facing = 1f;          // direção para onde o jogador olha (1 = direita, -1 = esquerda)
     private float originalGravity;
 
+
+    public MenuScene menu;
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -86,10 +90,12 @@ public class player : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Dano"))
         {
-            SceneManager.LoadScene(0);
-        }
-    }
 
+            menu.MostrarGameOver();//Vai mostrar o menu de GameOver
+
+        }
+
+    }
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))

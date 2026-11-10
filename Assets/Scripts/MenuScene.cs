@@ -50,7 +50,18 @@ public class MenuScene : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void MostrarGameOver()
+    {
+        JogoAcabou = true;
+        painelGameOver.SetActive(true) ;
+        Time.timeScale = 0f;
+    }
 
+    public void Reiniciar()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
 }
 
