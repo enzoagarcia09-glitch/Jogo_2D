@@ -94,6 +94,11 @@ public class player : MonoBehaviour
             menu.MostrarGameOver();//Vai mostrar o menu de GameOver
 
         }
+        if (collision.gameObject.CompareTag) ("fase2"))
+                {
+            SceneManager.LoadScene("jogo2");
+                }
+           
 
     }
     void OnCollisionExit2D(Collision2D collision)
