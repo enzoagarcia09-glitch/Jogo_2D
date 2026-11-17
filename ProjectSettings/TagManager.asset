@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Trigger
   - Dano
+  - passarfase
   layers:
   - Default
   - TransparentFX
