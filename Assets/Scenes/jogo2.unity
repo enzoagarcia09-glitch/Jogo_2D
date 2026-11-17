@@ -628,8 +628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a0806e19ccc8b43ada15f46e649418, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painelPause: {fileID: 0}
-  painelGameOver: {fileID: 0}
+  painelPause: {fileID: 2107315368}
+  painelGameOver: {fileID: 1177573233}
 --- !u!4 &521521459
 Transform:
   m_ObjectHideFlags: 0
@@ -1748,7 +1748,7 @@ GameObject:
   - component: {fileID: 2129066429}
   - component: {fileID: 2129066430}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1919,8 +1919,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1379756213}
-  - {fileID: 1365268377}
   - {fileID: 2129066428}
+  - {fileID: 1365268377}
   - {fileID: 475734880}
   - {fileID: 2047284069}
   - {fileID: 1005804554}
