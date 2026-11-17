@@ -10,6 +10,7 @@ public class Passarfase : MonoBehaviour
         {
             SceneManager.LoadScene("jogo2");
         }
+
     }
 
 
