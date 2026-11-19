@@ -92,7 +92,6 @@ public class player : MonoBehaviour
         {
 
             menu.MostrarGameOver();//Vai mostrar o menu de GameOver
-
         }
            
 
