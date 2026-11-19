@@ -8,7 +8,7 @@ public class CameraFollow : MonoBehaviour
     public float velocidade = 5f;                               // Quanto maior, mais rápido a câmera alcança o alvo
 
 
-    private void LateUpdate()                                   // Roda depois do Update, então a câmera se move depois do player e evita tremedeira
+    private void LateUpdate()                                   
     {
         Vector3 posicaoDesejada = alvo.position + distancia;    // Posição onde a câmera deveria estar
 

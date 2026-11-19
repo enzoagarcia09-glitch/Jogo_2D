@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Winner : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other) // Roda quando algum objeto entra na área do collider (precisa estar com Is Trigger marcado)
+    private void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.CompareTag("Player"))             // Confere se quem entrou foi o player (tag "Player")
         {
